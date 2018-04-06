@@ -6,7 +6,7 @@ Since quantitative stratigraphy has been around for such a long time that means 
 
 Geomorphic measurements are a great way to compare the ancient and modern systems with models. In earth surface processes modelling there are numerical, geometric, rule-based, and physical models. Numerical models use mass balance to approximate how systems change with each time step (e.g. sediment flux). Geometric models use angles and boundary conditions to approximate the shape of systems (e.g. fluvial meanders). Rule-based models follow rules of how systems should react to changes in conditions within the model (e.g. deep water lobes).  Physical models are miniature versions of real world phenomena that fit inside a lab and run under known boundary conditions (e.g. deltas). The three computational methods of modelling are easy to get started with in Python. An example of numerical modelling of carbonate reef growth from Galewsky (1998) only takes X lines.
 
-'''python
+'''
 import numpy as np
 import matplotlib.pyplot as plt
 from IPython import display
@@ -14,7 +14,6 @@ from IPython import display
 x=np.arange(0,2500,1)
 y=np.arange(-125,125,0.1)
 
-#Variables from Galewsky 1998
 Gm=0.015
 k=0.16
 I0=2250
